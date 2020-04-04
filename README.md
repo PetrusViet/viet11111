@@ -38,12 +38,12 @@ nó có vẻ giống với c, điều đó có nghĩa là server sẽ trả về
 một đoạn text bất kỳ, lấy giá trị trả về từ server rồi xor ngược lại với text là ra flag.
 làm thôi:
 ```python
-           $ nc challenges.auctf.com 30030
+        $  nc challenges.auctf.com 30030
         > bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
         b'\x03\x17\x01\x16\x04\x19\x0cQ\x14Q0=\x10Q7\x11Q=\x1bR\x170=R6\x12=ZUP\x14\x01Z[UP\x1f\x03\x17\x01\x16\x04\x19\x0cQ\
         x14Q0=\x10Q7\x11'
 ```
-end:
+and:
 ```python
         c = b'\x03\x17\x01\x16\x04\x19\x0cQ\x14Q0=\x10Q7\x11Q=\x1bR\x170=R6\x12=ZUP\x14\x01Z[UP\x1f\x03\x17\
         x01\x16\x04\x19\x0cQ\x14Q0=\x10Q7\x11'
@@ -57,9 +57,9 @@ ta có kết quả:
         'auctf{n3v3R_r3Us3_y0uR_0Tp_872vc8972}auctf{n3v3R_r3Us'
  ```
  
- ###flag: auctf{n3v3R_r3Us3_y0uR_0Tp_872vc8972}
+ ### flag: auctf{n3v3R_r3Us3_y0uR_0Tp_872vc8972}
  
- ##2.Pretty Ridiculous
+ ## 2.Pretty Ridiculous
  
  Eve discovered that a piece of paper had been shoved into her pocket.. what could it be? The message she found can be downloaded at the following link:
 
