@@ -30,11 +30,11 @@ tiếp tục xem ta có gì:
 ```python
         nc challenges.auctf.com 30030
 ```
-thử nhập đoạn key 'Who Li' mà chúng ta tìm được vừa này xem sao thì kết quả trả về:
+thử nhập đoạn key 'Who Li' mà chúng ta tìm được vừa nãy xem sao thì kết quả trả về:
 ```python
         b'6\x1d\x0cT*\x12'
 ```
-nó có vẻ giống với c, điều đó có nghĩa là server sẽ trả về kết quả là text ^ flag. yebb, nếu như vậy thì ta chỉ cần nhập
+nó có vẻ giống với c, điều đó có nghĩa là server sẽ trả về kết quả là text ^ flag.  yebb, nếu như vậy thì ta chỉ cần nhập
 một đoạn text bất kỳ, lấy giá trị trả về từ server rồi xor ngược lại với text là ra flag.
 làm thôi:
 ```python
