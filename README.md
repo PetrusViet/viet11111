@@ -68,7 +68,7 @@ ta có kết quả:
 https://drive.google.com/file/d/17z7C5i_TOx_838QNPbZvNCKW4DcPCaEF/view?usp=sharing
 
 ----------------------------------------------------
-đây là 1 bài RSA đơn giản, tìm hiểu về [RSA](https://vi.wikipedia.org/wiki/RSA_(m%C3%A3_h%C3%B3a)]
+đây là 1 bài RSA đơn giản, tìm hiểu về [RSA](https://vi.wikipedia.org/wiki/RSA_(m%C3%A3_h%C3%B3a))
 
 mình sử dụng [factordb](http://factordb.com/) để tách n thành 2 số nguyên tố p, q
 giải thôi:
