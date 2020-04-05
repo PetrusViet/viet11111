@@ -37,7 +37,7 @@ thử nhập đoạn key 'Who Li' mà chúng ta tìm được vừa nãy xem sao
 nó có vẻ giống với c, điều đó có nghĩa là server sẽ trả về kết quả là text ^ flag.  yebb, nếu như vậy thì ta chỉ cần nhập
 một đoạn text bất kỳ, lấy giá trị trả về từ server rồi xor ngược lại với text là ra flag.
 làm thôi:
-```python
+```bash
         $  nc challenges.auctf.com 30030
         > bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
         b'\x03\x17\x01\x16\x04\x19\x0cQ\x14Q0=\x10Q7\x11Q=\x1bR\x170=R6\x12=ZUP\x14\x01Z[UP\x1f\x03\x17\x01\x16\x04\x19\x0cQ\
@@ -68,9 +68,9 @@ ta có kết quả:
 https://drive.google.com/file/d/17z7C5i_TOx_838QNPbZvNCKW4DcPCaEF/view?usp=sharing
 
 ----------------------------------------------------
-đây là 1 bài RSA đơn giản, tìm hiểu về RSA: https://vi.wikipedia.org/wiki/RSA_(m%C3%A3_h%C3%B3a)
+đây là 1 bài RSA đơn giản, tìm hiểu về [RSA](https://vi.wikipedia.org/wiki/RSA_(m%C3%A3_h%C3%B3a)]
 
-mình sử dụng http://factordb.com/ để tách n thành 2 số nguyên tố p, q
+mình sử dụng [factordb](http://factordb.com/) để tách n thành 2 số nguyên tố p, q
 giải thôi:
 ```python
 import math
@@ -127,8 +127,8 @@ c = 3875506148038742589916427240032844188594674646921880629837931734358685733467
 ----------------------------------------------------
 
 Ta thấy đây là 1 bài RSA với số e lớn, do 'ed ≡ 1 mod phi' nên khi e lớn thì d sẽ nhỏ.
-Chúng ta có 1 phương pháp để tìm d (với d không quá lớn) gọi là wiener's attack (https://en.wikipedia.org/wiki/Wiener%27s_attack)
-loanh qoanh 1 lúc mình tìm được 1 cái tool: https://github.com/pablocelayes/rsa-wiener-attack
+Chúng ta có 1 phương pháp để tìm d (với d không quá lớn) gọi là [wiener's attack](https://en.wikipedia.org/wiki/Wiener%27s_attack)
+loanh qoanh 1 lúc mình tìm được 1 cái [tool](https://github.com/pablocelayes/rsa-wiener-attack)
 
 và đây là kết quả:
 ```python
