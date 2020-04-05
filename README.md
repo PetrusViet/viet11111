@@ -128,7 +128,7 @@ c = 3875506148038742589916427240032844188594674646921880629837931734358685733467
 
 Ta thấy đây là 1 bài RSA với số e lớn, do 'ed ≡ 1 mod phi' nên khi e lớn thì d sẽ nhỏ.
 Chúng ta có 1 phương pháp để tìm d (với d không quá lớn) gọi là wiener's attack (https://en.wikipedia.org/wiki/Wiener%27s_attack)
-loanh hoanh 1 lúc mình tìm được 1 cái tool: https://github.com/pablocelayes/rsa-wiener-attack
+loanh qoanh 1 lúc mình tìm được 1 cái tool: https://github.com/pablocelayes/rsa-wiener-attack
 
 và đây là kết quả:
 ```python
