@@ -136,7 +136,7 @@ print(pow(ord('a'), e, n) - c0)
 ```
 Kết quả là chúng bằng nhau. amazing!!!   Chúng ta có thể làm gì với nó????
 suy nghĩ-tính toán 77 49 cách vẫn không được :( và rồi mình chợt nghĩ ra: "số ký tự in ra màn hình được là có hạn".
-và rồi mình quyết định bruteforce attack:
+và mình quyết định bruteforce attack:
 
 ```python
 import math
